@@ -13,6 +13,8 @@ public class DialogueManager : MonoBehaviour
 
     public Queue<string> sentences;
 
+    public PlayerMovement player;
+
     private void Start()
     {
         sentences= new Queue<string>();
@@ -21,6 +23,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        player.InConverstion = true;
+
         anim.SetBool("IsOpen", true);
 
         nameText.text = dialogue.name;
@@ -59,6 +63,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
+        player.InConverstion = false;
         Debug.Log("Dialogue has ended");
         anim.SetBool("IsOpen", false);
     }
