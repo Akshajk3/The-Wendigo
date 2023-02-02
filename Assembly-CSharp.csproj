@@ -63,6 +63,10 @@
     <Compile Include="Assets\Scripts\Player\PlayerInteractionManager.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
     <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\Save System\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\Save System\SaveSystem.cs" />
+    <Compile Include="Assets\Scripts\Save System\EnemyData.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

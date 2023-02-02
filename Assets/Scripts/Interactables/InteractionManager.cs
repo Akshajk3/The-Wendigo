@@ -11,6 +11,8 @@ public class InteractionManager : MonoBehaviour
     public UnityEvent interactionEvent;
     public LayerMask playerLayer;
     public SpriteRenderer GFX;
+    public bool talking = false;
+    public DialogueManager dialogueManager;
 
     void Start()
     {

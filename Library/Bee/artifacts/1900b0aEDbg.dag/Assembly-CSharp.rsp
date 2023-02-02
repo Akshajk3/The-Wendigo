@@ -389,10 +389,14 @@
 "Assets/Scripts/Dialogue/Dialogue.cs"
 "Assets/Scripts/Dialogue/DialogueManager.cs"
 "Assets/Scripts/Dialogue/DialogueTrigger.cs"
+"Assets/Scripts/Enemy/Enemy.cs"
 "Assets/Scripts/Interactables/InteractionManager.cs"
 "Assets/Scripts/Main Menu/MainMenuManager.cs"
 "Assets/Scripts/Player/PlayerInteractionManager.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
+"Assets/Scripts/Save System/EnemyData.cs"
+"Assets/Scripts/Save System/PlayerData.cs"
+"Assets/Scripts/Save System/SaveSystem.cs"
 -langversion:9.0
 
 /deterministic
